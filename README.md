@@ -14,7 +14,7 @@ git add .
 git commit -m "message"
 git push 
 
-#CREATE A BRANCH 
+# CREATE A BRANCH 
 git branch <branch>
 touch "file.txt"
 git add .
@@ -23,7 +23,7 @@ git push origin <branch>
 
 Une branche par fonctionnalité. 
 
-#CRÉER LE MANIFESTE 
+# CRÉER LE MANIFESTE 
 
 Le fichier manifest.json regroupe toutes les caractéristiques de l'extension + 
 tous les fichiers HTML, CSS et JS, ou même jpg pour les icons, qui vont intervenir durant son développement : background.js, popup.html par exemple 
