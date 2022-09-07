@@ -15,7 +15,7 @@ button.current {
 
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
 }
@@ -26,6 +26,11 @@ body {
   align-items: center;
   min-height: 100vh;
   background: #434750;
+}
+
+.container {
+  height: 900px;
+  width: 500px;
 }
 
 ul {
