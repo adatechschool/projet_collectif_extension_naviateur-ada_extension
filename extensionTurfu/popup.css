@@ -16,6 +16,14 @@ body {
     width: 300px;
 }
 
+h1 {
+    color: salmon;
+}
+
+.question {
+    color: salmon;
+}
+
 a {
     position: relative;
     display: inline-block;
