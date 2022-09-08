@@ -108,7 +108,6 @@ body {
   transform: rotate(315deg);
 }
 
-<<<<<<< HEAD
 h1 {
     color: salmon;
 }
@@ -117,9 +116,7 @@ h1 {
     color: salmon;
 }
 
-=======
 /* MENU */
->>>>>>> 764f9b6327a74d02808662b05a77d594d844583d
 a {
     position: relative;
     display: inline-block;

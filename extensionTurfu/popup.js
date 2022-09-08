@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 // if (localStorage.getItem("nom") != null)
 //     h1.textContent = `Bonjour ${localStorage.getItem("nom")}`;
 
 //     bouton.onclick = () =>{
 //         localStorage.setItem("nom",nom.value);
 //     }
-=======
 // SEARCH BAR
 const icon = document.querySelector(".icon");
 const search = document.querySelector(".search");
@@ -25,4 +23,3 @@ mysearch.onclick = () => {
   console.log(document.getElementById("mysearch").value);
   localStorage.setItem("name", document.getElementById("mysearch").value);
 };
->>>>>>> 764f9b6327a74d02808662b05a77d594d844583d
