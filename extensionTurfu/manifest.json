@@ -5,6 +5,11 @@
     "manifest_version": 3,
     "permissions": ["storage", "activeTab", "scripting"],
     "action":{
-        "default_popup": "popup.html"}
+        "default_popup": "popup.html"},
+        "app": {
+            "background": {
+              "scripts": ["popup.js"]
+            }
+          }
 
 }

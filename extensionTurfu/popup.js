@@ -4,3 +4,8 @@ const search = document.querySelector(".search");
 icon.onclick = () => {
   search.classList.toggle("active");
 };
+
+const btn = document.getElementById("clearbtn");
+btn.onclick = () => {
+  document.getElementById("mySearch").value = "";
+};
