@@ -20,12 +20,11 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Popins:200,300,400,500,600,700,800,900&display=swap');
 
-
 .bar{
     display: flex;
     position: 10px;
     width: 250px;
-    height: 0px;
+    height: 100px;
 
 }
 .search{
@@ -38,9 +37,11 @@ body {
     box-shadow: 0 0 0 5px #03e9f4;
     overflow: hidden;
 }
+
 .search.active{
     width: 300px;
 }
+
 .search .icon{
     position: absolute;
     top:0;
@@ -55,6 +56,7 @@ body {
     z-index: 1000;
     cursor: pointer;
 }
+
 .search .icon::before{
     content: '';
     position: absolute;
@@ -64,6 +66,7 @@ body {
     border-radius: 50%;
     transform: translate(-4px, -4px);
 }
+
 .search .icon::after{
     content: '';
     position: absolute;
@@ -72,6 +75,7 @@ body {
     background: #07c6d0;
     transform: translate(6px, 6px) rotate(315deg);
 }
+
 .search .input{
     position: relative;
     width: 300px;
@@ -81,6 +85,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .search .input input{
     position: absolute;
     top:0;
