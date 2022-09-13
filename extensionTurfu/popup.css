@@ -15,9 +15,7 @@ body {
     height: 500px;
     width: 300px;
 }
-
-/* ============================= SEARCH BAR ============================= */
-
+/* ================= SEARCH BAR ================= */
 @import url('https://fonts.googleapis.com/css?family=Popins:200,300,400,500,600,700,800,900&display=swap');
 
 .bar{
@@ -96,8 +94,37 @@ body {
     font-size: 18px;
     padding: 10px 0;
 }
+.clear{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height:15px;
+    right:15px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear::before{
+    position:absolute;
+    content:'';
+    width: 1px;
+    height: 15px;
+    background: #000000;
+    transform: rotate(45deg);
+}
+.clear::after{
+    position:absolute;
+    content:'';
+    width: 1px;
+    height: 15px;
+    background: #000000;
+    transform: rotate(315deg);
+}
+/* ================= MENU ================= */
 
-/* ============================= BUTTONS-ONGLETS ============================= */
 a {
     position: relative;
     display: inline-block;
