@@ -9,15 +9,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     flex-direction: column;
     background: #050801;
     height: 500px;
     width: 300px;
 }
 /* ================= SEARCH BAR ================= */
-@import url('https://fonts.googleapis.com/css?family=Popins:200,300,400,500,600,700,800,900&display=swap');
-
 .bar{
     display: flex;
     position: 10px;
