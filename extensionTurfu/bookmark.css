@@ -177,7 +177,7 @@ a:hover {
 
 button {
   cursor: pointer;
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #07c6d0;
   height: 30px;
   width: 100px;
