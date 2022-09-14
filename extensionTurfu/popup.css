@@ -13,7 +13,28 @@ body {
     background: #000;
     height: 500px;
     width: 300px;
+    
 }
+
+h1{
+    position: relative;
+    display: inline-block;
+    padding: 20px 25px;
+    margin: 40px 0;
+    background: #03e9f4;
+    color: #000;
+    box-shadow: 0 0 5px #07c6d0,
+                0 0 25px #07c6d0,
+                0 0 50px #07c6d0,
+                0 0 200px #07c6d0;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0,5s;
+    letter-spacing: 4px;
+}
+
 
 /* ================= SEARCH BAR ================= */
 .search{
@@ -131,7 +152,7 @@ a {
 }
 a:hover {
     background: #03e9f4;
-    color: #050801;
+    color: #000;
     box-shadow: 0 0 5px #03e9f4,
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
