@@ -1,10 +1,10 @@
+/* =================  GENERAL ================= */
 * {
     margin: 0;
     padding: 0;
     font-family: consolas;
     box-sizing: bordex-box;
 }
-
 body {
     display: flex;
     justify-content: center;
@@ -14,17 +14,12 @@ body {
     height: 500px;
     width: 300px;
 }
-/* ================= SEARCH BAR ================= */
-.bar{
-    display: flex;
-    position: 10px;
-    width: 250px;
-    height: 50px;
 
-}
+/* ================= SEARCH BAR ================= */
 .search{
     position: relative;
     display: flex;
+    margin-top: 10px;
     width: 30px;
     height: 30px;
     background: #fff;
@@ -33,11 +28,9 @@ body {
     box-shadow: 0 0 0 5px #03e9f4;
     overflow: hidden;
 }
-
 .search.active{
-    width: 300px;
+    width: 250px;
 }
-
 .search .icon{
     position: absolute;
     top:0;
@@ -53,7 +46,6 @@ body {
     cursor: pointer;
     transform: translate(2px, 2px);
 }
-
 .search .icon::before{
     content: '';
     position: absolute;
@@ -63,7 +55,6 @@ body {
     border-radius: 50%;
     transform: translate(-1px, -1px);
 }
-
 .search .icon::after{
     content: '';
     position: absolute;
@@ -72,7 +63,6 @@ body {
     background: #07c6d0;
     transform: translate(6px, 6px) rotate(315deg);
 }
-
 .search .input{
     position: relative;
   
@@ -83,7 +73,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .search .input input{
     position: absolute;
     top:0;
@@ -98,8 +87,8 @@ body {
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    width: 15px;
-    height:15px;
+    width: 12px;
+    height: 12px;
     right:15px;
     background: #fff;
     cursor: pointer;
@@ -112,7 +101,7 @@ body {
     position:absolute;
     content:'';
     width: 1px;
-    height: 15px;
+    height: 12px;
     background: #000000;
     transform: rotate(45deg);
 }
@@ -120,15 +109,12 @@ body {
     position:absolute;
     content:'';
     width: 1px;
-    height: 15px;
+    height: 12px;
     background: #000000;
     transform: rotate(315deg);
 }
 
-
 /* ================= MENU ================= */
-
-/* MENU */
 a {
     position: relative;
     display: inline-block;
@@ -143,7 +129,6 @@ a {
     letter-spacing: 4px;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
-
 a:hover {
     background: #03e9f4;
     color: #050801;
@@ -157,7 +142,6 @@ a span {
     position: absolute;
     display: block;
 }
-
 a span:nth-child(1)
 {
     top: 0;
@@ -167,7 +151,6 @@ a span:nth-child(1)
     background: linear-gradient(90deg,transparent,#03e9f4);
     animation: animate1 1s linear infinite;
 }
-
 @keyframes animate1
 {
     0%
@@ -179,7 +162,6 @@ a span:nth-child(1)
         left: 100%
     }
 }
-
 a span:nth-child(2)
 {
     top: -100%;
@@ -190,7 +172,6 @@ a span:nth-child(2)
     animation: animate2 1s linear infinite;
     animation-delay: 0,25s;
 }
-
 @keyframes animate2
 {
     0%
@@ -202,7 +183,6 @@ a span:nth-child(2)
         top: 100%
     }
 }
-
 a span:nth-child(3)
 {
     bottom: 0;
@@ -213,7 +193,6 @@ a span:nth-child(3)
     animation: animate3 1s linear infinite;
     animation-delay: 0,5s;
 }
-
 @keyframes animate3
 {
     0%
@@ -225,7 +204,6 @@ a span:nth-child(3)
         right: 100%;
     }
 }
-
 a span:nth-child(4)
 {
     bottom: 100%;
@@ -236,7 +214,6 @@ a span:nth-child(4)
     animation: animate4 1s linear infinite;
     animation-delay: 0,7   5s;
 }
-
 @keyframes animate4
 {
     0%

@@ -9,12 +9,49 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* min-height: 100vh; */
     flex-direction: column;
     background: #050801;
     height: 500px;
     width: 300px;
 }
+h1{
+    position: absolute;
+    display: inline-block;
+    top: 10px ;
+    left: 30px;
+    color: #03e9f4;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0,5s;
+    letter-spacing: 4px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+    cursor: pointer;
+}
+h1:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+.return{
+    color: #03e9f4;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 1.5px solid #07c6d0;
+  }
 
 a:hover {
     background: #03e9f4;
@@ -25,6 +62,29 @@ a:hover {
                 0 0 200px #03e9f4;
 }
 
+button{
+    cursor: pointer;
+    color: #fff;
+    background: #07c6d0;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: #07c6d0;
+    margin-top: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4,
+                    0 0 50px #03e9f4,
+                    0 0 200px #03e9f4;
+
+}
 @keyframes animate1
 {
     0%
@@ -47,4 +107,3 @@ a:hover {
         top: 100%
     }
 }
-
