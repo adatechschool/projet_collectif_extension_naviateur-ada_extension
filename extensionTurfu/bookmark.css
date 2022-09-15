@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: consolas;
+  font-family: 'Amatic SC', cursive;
   box-sizing: bordex-box;
 }
 body {
@@ -156,6 +156,7 @@ a:hover {
   padding: 20px;
   background: rgb(0, 0, 0);
   border: 1.5px solid #07c6d0;
+  font-size: 20px;
 }
 
 /* From */
